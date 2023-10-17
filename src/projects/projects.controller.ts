@@ -13,6 +13,7 @@ import { UpdateProjectDto } from './dto/update-project.dto';
 
 @Controller('projects')
 export class ProjectsController {
+  // não tem regra de negocio no controller
   constructor(private readonly projectsService: ProjectsService) {}
 
   @Post()
